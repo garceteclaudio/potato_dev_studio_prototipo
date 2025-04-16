@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7f0d6f276362181448e189f1ee2a3b31
+guid: e85a9d4260973ae4c916fdb381a57bad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7275094776201096135
-    second: nivel boton fondo e_0
+      213: -8742098368844353875
+    second: JUGAR (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nivel boton fondo e_0
+      name: JUGAR (2)_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 35
-        width: 969
-        height: 938
+        x: 0
+        y: 0
+        width: 700
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cb24c2672456f460800000000000000
-      internalID: 7275094776201096135
+      spriteID: daea285e9d3dda680800000000000000
+      internalID: -8742098368844353875
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nivel boton fondo e_0: 7275094776201096135
+      JUGAR (2)_0: -8742098368844353875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
