@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5763432490363008026}
   - component: {fileID: 3060676670873136277}
   - component: {fileID: 6505405548006834262}
+  - component: {fileID: 3655586049590563957}
   m_Layer: 0
   m_Name: doritos
   m_TagString: Untagged
@@ -115,3 +116,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3655586049590563957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275221352369554206}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.53, y: 9.16, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
