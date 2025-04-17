@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nivel boton fondo c_0: 6032434922645580296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
