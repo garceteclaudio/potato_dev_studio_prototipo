@@ -14,11 +14,20 @@ public class BehaviourNPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPlayer&& Input.GetKeyDown(KeyCode.Space))
+        if (isPlayer&& Input.GetKeyUp(KeyCode.Space))
         {
             if (!didDialogueStart)
             {
                 EmpezarDialogo();
+            }
+            else if (textoDialogo.text == lineaTexto[indexLine])
+            {
+                SiguienteLinea();
+            }
+            else
+            {
+                StopAllCoroutines();
+                textoDialogo.text= lineaTexto[indexLine];
             }
         }
     }
@@ -40,6 +49,24 @@ public class BehaviourNPC : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
     }
+
+    private void SiguienteLinea()
+    {
+        indexLine++;
+        if(indexLine< lineaTexto.Length)
+        {
+            StartCoroutine(MostrarLineas());
+        }
+        else
+        {
+            didDialogueStart=false;
+            panelDialogo.SetActive(false);
+            aviso.SetActive(true);
+        }
+    }
+
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         isPlayer = true;
