@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      resorce games_0: -6831928045613875750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
