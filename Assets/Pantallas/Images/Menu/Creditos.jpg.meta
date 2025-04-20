@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b03e570f91eb3b54c83f5bc14df377b5
+guid: 2c9fe2f4610883d4eb85b5e24ce052b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8315463308248925308
-    second: doritos_0
+      213: 7175261627662145010
+    second: Creditos_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: doritos_0
+      name: Creditos_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 106
-        width: 653
-        height: 916
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c74c8f652d5766370800000000000000
-      internalID: 8315463308248925308
+      spriteID: 2f51b472f66a39360800000000000000
+      internalID: 7175261627662145010
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      doritos_0: 8315463308248925308
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

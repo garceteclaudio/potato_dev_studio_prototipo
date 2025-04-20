@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      changito_0: -368155027564559709
+      changito_1: 5937551607178642673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
