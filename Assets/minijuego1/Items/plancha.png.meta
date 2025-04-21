@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b48e5df291df2dc408ca625b05c2c44d
+guid: b61153c7fb5eb584db089cdff9218913
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 523803868112935712
-    second: pancho_0
+      213: -7264904824404904630
+    second: plancha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pancho_0
+      name: plancha_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 120
-        height: 120
+        x: 9
+        y: 16
+        width: 186
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02bd8d2c7dce44700800000000000000
-      internalID: 523803868112935712
+      spriteID: a45f256ad8fdd2b90800000000000000
+      internalID: -7264904824404904630
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pancho_0: 523803868112935712
+      plancha_0: -7264904824404904630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

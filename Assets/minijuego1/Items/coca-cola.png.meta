@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0f686ec5dbe5cfb4fbab491ea382a608
+guid: 521d5d4da8a2fd44eb371841aa6b20ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2952463322376388517
-    second: pollo_0
+      213: 519686691566646255
+    second: coca-cola_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pollo_0
+      name: coca-cola_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 120
-        height: 120
+        x: 34
+        y: 5
+        width: 141
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b50c269404eb607d0800000000000000
-      internalID: -2952463322376388517
+      spriteID: fe3f355ea4c463700800000000000000
+      internalID: 519686691566646255
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pollo_0: -2952463322376388517
+      coca-cola_0: 519686691566646255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

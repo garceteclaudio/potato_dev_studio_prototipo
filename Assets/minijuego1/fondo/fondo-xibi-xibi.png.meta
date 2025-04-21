@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: a2e8a7363818dc24bb0868305126ad73
+guid: 9e5d7901e3592f047b8b136de1488e91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6611063975212234208
-    second: botella_0
-  - first:
-      213: 3839385718330263570
-    second: botella_1
-  - first:
-      213: 1407627368247810368
-    second: botella_2
+      213: -6747549294317315322
+    second: fondo-xibi-xibi_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: botella_0
+      name: fondo-xibi-xibi_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 38
-        width: 62
-        height: 72
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e538e598a73fbb50800000000000000
-      internalID: 6611063975212234208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: botella_1
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 1
-        width: 62
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21888c808fc384530800000000000000
-      internalID: 3839385718330263570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: botella_2
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 27
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 049578c22a5e88310800000000000000
-      internalID: 1407627368247810368
+      spriteID: 60b57c7baa3eb52a0800000000000000
+      internalID: -6747549294317315322
       vertices: []
       indices: 
       edges: []
@@ -198,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      botella_0: 6611063975212234208
-      botella_1: 3839385718330263570
-      botella_2: 1407627368247810368
+      fondo-xibi-xibi_0: -6747549294317315322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

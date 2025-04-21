@@ -13,6 +13,15 @@ TagManager:
   - contenedor-vidrio
   - elemento-para-tirar-vidrio
   - elemento-para-tirar-organico
+  - C_V
+  - item-2
+  - item-vidrio
+  - contenedor-papel
+  - item-3
+  - item-papel
+  - item-4
+  - item-metal
+  - contenedor-metal
   layers:
   - Default
   - TransparentFX
