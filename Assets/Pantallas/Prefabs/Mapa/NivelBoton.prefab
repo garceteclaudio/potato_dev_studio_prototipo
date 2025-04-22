@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8290450142360471260, guid: 9228377037caf8c42a6134a8df69aed3, type: 3}
+  m_Sprite: {fileID: -6003377038660579615, guid: 929c2fbbea8d1644dabc3cc7922f3d6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6749219092680717330, guid: f3d715faf8606a347a7b2d62bb408691, type: 3}
+  m_Sprite: {fileID: 7438742643684410391, guid: 01236af5db9ba5646a55cfbae6e120a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -213,6 +213,7 @@ MonoBehaviour:
   imagenHover: {fileID: 4558770137738333624}
   audioSource: {fileID: 0}
   hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
 --- !u!1 &5990919306510632538
 GameObject:
   m_ObjectHideFlags: 0
