@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "BOT\xD3N HOVER_0": 6571776620574836852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

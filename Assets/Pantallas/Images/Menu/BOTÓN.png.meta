@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "BOT\xD3N_0": -8412968229161440679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
