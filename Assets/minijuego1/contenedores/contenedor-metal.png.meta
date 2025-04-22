@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      contenedor-metal_0: -4357619849552724435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
