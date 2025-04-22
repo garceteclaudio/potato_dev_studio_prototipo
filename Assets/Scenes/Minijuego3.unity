@@ -3158,9 +3158,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 543886496480983243, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 762432545615551734, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
       propertyPath: m_Name
       value: vendedor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3104035057937638507, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3524594000040868602, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4121131618413828838, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
       propertyPath: m_LocalScale.x
@@ -3247,9 +3263,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 543886496480983243, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 762432545615551734, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
       propertyPath: m_Name
       value: vendedor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3104035057937638507, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3524594000040868602, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4121131618413828838, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
       propertyPath: m_LocalPosition.x

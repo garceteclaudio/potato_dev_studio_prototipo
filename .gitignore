@@ -83,3 +83,22 @@ Assets/TextMesh Pro.meta
 Assets/TextMesh Pro/
 *.meta
 *.meta
+!Assets/Fonts.meta
+!Assets/Fonts/AvertaDemo\ SDF.asset.meta
+!Assets/Images/Protagonist.meta
+!Assets/Images/Protagonist/HABLANDO.png.meta
+!Assets/Images/SIGUIENTE.png.meta
+!Assets/Scenes/Tutorial2.unity.meta
+!Assets/Scripts.meta
+!Assets/Scripts/Dialogues.meta
+!Assets/Scripts/Dialogues/Dialogues.cs.meta
+!Assets/Scripts/Dialogues/ProtaCaraAnimator.cs.meta
+!Assets/minijuego2/imagenes/63e5f39ccd6ebdd32608b3179ecd1cca.jpg.meta
+!Assets/minijuego2/imagenes/ad8c7e037ef516cce5f17fef4f205543.jpg.meta
+!Assets/minijuego2/imagenes/bfa86fc59b7157b482e5a2b5042ff29b.jpg.meta
+!Assets/minijuego2/prefaps/banana.prefab.meta
+!Assets/minijuego2/prefaps/comidaM.prefab.meta
+!Assets/minijuego2/prefaps/zanahoria.prefab.meta
+!Assets/minijuego2/scripts/ComidaMala.cs.meta
+!Assets/minijuego2/sound/drop_004.ogg.meta
+
