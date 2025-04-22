@@ -10,11 +10,20 @@ public class DragAndDropManager : MonoBehaviour
 
     [Header("Configuración")]
     [SerializeField] private LayerMask containerLayerMask;
+    [SerializeField] private AudioClip correctDropSound; // Nuevo campo para el sonido
+    private AudioSource audioSource; // Referencia al AudioSource
 
     private void Start()
     {
         mainCamera = Camera.main;
         myCollider = GetComponent<Collider2D>();
+        audioSource = GetComponent<AudioSource>(); // Obtener el AudioSource
+
+        // Si no hay AudioSource en el objeto, lo añadimos
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
 
         if (mainCamera == null)
         {
@@ -80,7 +89,16 @@ public class DragAndDropManager : MonoBehaviour
     {
         if (gameObject.CompareTag("elemento-comida"))
         {
+            // Reproducir sonido si está configurado
+            if (correctDropSound != null)
+            {
+                audioSource.PlayOneShot(correctDropSound);
+            }
+
             ScoreManager.Instance?.AddScore(1);
+
+
+
             SwitchContainers();
             ProcessItems();
         }

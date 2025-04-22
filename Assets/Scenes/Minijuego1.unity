@@ -169,6 +169,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &61057027
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -631,6 +632,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &381367307
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -904,6 +906,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &701329175
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1197,6 +1200,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &725417230
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1391,6 +1395,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &925285476
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1659,6 +1664,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 8300000, guid: 704e79d261df7a24ea710142772f60f1, type: 3}
 --- !u!1 &1102293162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,6 +1960,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 8300000, guid: 704e79d261df7a24ea710142772f60f1, type: 3}
 --- !u!1 &1174149106
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2011,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 8300000, guid: 704e79d261df7a24ea710142772f60f1, type: 3}
 --- !u!61 &1174149109
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2536,6 +2544,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &1618033122
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2695,6 +2704,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &1625495357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2854,6 +2864,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &1758623919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3058,6 +3069,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &1781729809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3304,6 +3316,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &1809289404
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3472,6 +3485,7 @@ GameObject:
   - component: {fileID: 1837363369}
   - component: {fileID: 1837363368}
   - component: {fileID: 1837363367}
+  - component: {fileID: 1837363371}
   m_Layer: 0
   m_Name: Item1
   m_TagString: elemento-comida
@@ -3509,6 +3523,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 8300000, guid: 9ee74a1efd2b136488cdcb0a0633f3d2, type: 3}
 --- !u!61 &1837363368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3618,6 +3633,103 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &1837363371
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837363365}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9ee74a1efd2b136488cdcb0a0633f3d2, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9ee74a1efd2b136488cdcb0a0633f3d2, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1839121541
 GameObject:
   m_ObjectHideFlags: 0
@@ -3668,6 +3780,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &1839121544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4016,6 +4129,7 @@ MonoBehaviour:
   containerLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  correctDropSound: {fileID: 0}
 --- !u!61 &1975352471
 BoxCollider2D:
   m_ObjectHideFlags: 0
