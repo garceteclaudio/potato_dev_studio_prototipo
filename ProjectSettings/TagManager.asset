@@ -2,13 +2,31 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - image
+  - item
+  - elemento-comida
+  - puntaje
+  - vida
+  - contenedor-organico
+  - contenedor-vidrio
+  - elemento-para-tirar-vidrio
+  - elemento-para-tirar-organico
+  - C_V
+  - item-2
+  - item-vidrio
+  - contenedor-papel
+  - item-3
+  - item-papel
+  - item-4
+  - item-metal
+  - contenedor-metal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Container
   - Water
   - UI
   - 
@@ -41,3 +59,5 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  m_RenderingLayers:
+  - Default

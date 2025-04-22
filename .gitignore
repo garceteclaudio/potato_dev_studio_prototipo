@@ -75,10 +75,11 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
+
+# TextMesh Pro files to ignore
+Assets/TextMesh Pro.meta
+Assets/TextMesh Pro/
+Assets/TextMesh Pro.meta
+Assets/TextMesh Pro/
 *.meta
-Assets/Pantallas/Images/Menu/Boton Volver.png.meta
-Assets/Pantallas/Images/Menu/Creditos.jpg.meta
-Assets/Pantallas/Images/Menu/Boton Volver Hover.png.meta
-Assets/Pantallas/Images/Menu/Boton Volver Hover.png.meta
-Assets/Pantallas/Images/Menu/Boton Volver.png.meta
-Assets/Pantallas/Images/Menu/Creditos.jpg.meta
+*.meta
