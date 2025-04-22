@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 07cb1f72d5f2b3f4a983d3182075b778
+guid: 5083e6f6ed6a18d4499190bb5d3db9b0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4357619849552724435
-    second: contenedor-metal_0
+      213: 3852616958161195494
+    second: MANZANA_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: contenedor-metal_0
+      name: MANZANA_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 81
-        width: 940
-        height: 1182
+        x: 119
+        y: 38
+        width: 839
+        height: 1005
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2ef731a5df9683c0800000000000000
-      internalID: -4357619849552724435
+      spriteID: 6e118de16be377530800000000000000
+      internalID: 3852616958161195494
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MANZANA_0: 3852616958161195494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
