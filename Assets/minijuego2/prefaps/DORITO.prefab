@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8243544475115195401}
   - component: {fileID: -2240483371133495251}
   - component: {fileID: 1673074229785256247}
+  - component: {fileID: 3957765768283014569}
   m_Layer: 0
   m_Name: DORITO
   m_TagString: Untagged
@@ -162,3 +163,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 10.8, y: 13.5}
   m_EdgeRadius: 0
+--- !u!114 &3957765768283014569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321998083448284128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d83ea5ca853c1b47843c2a8b37446b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonidoChoque: {fileID: 8300000, guid: d2c6595cfec025c4eab14b6a999e5bd5, type: 3}
