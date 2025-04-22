@@ -708,10 +708,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 620311401}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 353.7}
-  m_SizeDelta: {x: 440.8, y: 91.6}
+  m_SizeDelta: {x: -1479.2, y: -988.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &629954030
 MonoBehaviour:
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1c5064de8706ff943af19511eefb1b3e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7a90fa9234af5f42b71257fdf6b8400, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -954,7 +954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2795953005272559436, guid: c1b63fc54d348a948aa9f9c0d0ec25ea, type: 3}
+  m_Sprite: {fileID: -4425806449190991492, guid: 39bd51967176372448c69b4f00347a5a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1119,7 +1119,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2331187181434072942, guid: e80a6afd39b9f9e4ebc7812fb42378a6, type: 3}
+  m_Sprite: {fileID: -2331187181434072942, guid: 4b85af7eb0285d246806ecb1e5e8a61d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8465153742695952928, guid: 3672521457e505c4fb686fef55536e55, type: 3}
+  m_Sprite: {fileID: 5545074057135662542, guid: 66e2a6b656b7a924c98ffd87f22e462b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
