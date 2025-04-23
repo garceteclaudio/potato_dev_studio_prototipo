@@ -2754,63 +2754,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &254431724
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 762432545615551734, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_Name
-      value: vendedor (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.443211
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.0962873
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
 --- !u!1 &312846799
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,124 +2799,6 @@ Transform:
   - {fileID: 243970424}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &329159168
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 762432545615551734, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_Name
-      value: vendedor (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.275196
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.3186332
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: lineaTexto.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'lineaTexto.Array.data[0]'
-      value: 'Vendedor: WAAAA!acabado de perder mis caramelos'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'lineaTexto.Array.data[1]'
-      value: 'Heroe: Ou dejame ayudarte a buscarlos.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'lineaTexto.Array.data[2]'
-      value: 'Vendedor: WAAAA mis caramelos.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'lineaTexto.Array.data[3]'
-      value: 'Vendedor: WAAA muchas gracias por ayudarme a recuperarlos!!!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'lineaTexto.Array.data[4]'
-      value: 'Heroe:  No hay de que, me gusta ayudar.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'lineaTexto.Array.data[5]'
-      value: 'Vendedor: Heroe! tengo otro problema!!!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'lineaTexto.Array.data[6]'
-      value: 'Vendedor: Heroe! Eres grandioso, gracias por ayudarme!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: preguntas.Array.data[0].pregunta
-      value: "tenia 30 caramelos y solo encontre 10\xBFCuantos me faltan por encontrar?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: preguntas.Array.data[1].pregunta
-      value: "De los 30 caramelos tenia paletitas y bolitas dulces \xBFCuantas bolitas
-        dulces hay si tengo 13 paletitas?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'preguntas.Array.data[0].respuestas.Array.data[0]'
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'preguntas.Array.data[0].respuestas.Array.data[1]'
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'preguntas.Array.data[1].respuestas.Array.data[0]'
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
-      propertyPath: 'preguntas.Array.data[1].respuestas.Array.data[1]'
-      value: 9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,6 +3020,101 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &738906398
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 762432545615551734, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_Name
+      value: vendedor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4646108
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9548397
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: preguntas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: lineaTexto.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[0]'
+      value: "NI\xF1o1: heroe nos puede ayudar?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[1]'
+      value: 'Heroe: por suepuesto, que necesitan?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[2]'
+      value: "Ni\xF1o2: es que compramos unas bolsas de canicas con mis amigos y
+        queremos saber cuantas tenemos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[3]'
+      value: "Ni\xF1o3: Gracias por ayudarnos Heroe!!!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: preguntas.Array.data[0].pregunta
+      value: "tenemos 4 bolsas y en cada bolsa hay 6 canicas \xBFCuantas canicas
+        tenemos?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'preguntas.Array.data[0].respuestas.Array.data[0]'
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'preguntas.Array.data[0].respuestas.Array.data[1]'
+      value: 24
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
 --- !u!1 &984124334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,6 +3202,124 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1600064734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 762432545615551734, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_Name
+      value: vendedor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.616427
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4583182
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841976028894696430, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: lineaTexto.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[0]'
+      value: "Ni\xF1o: WAAAAA perdi mis caramelos!!!!!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[1]'
+      value: "Heroe: Hola ni\xF1o estas perdido?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[2]'
+      value: "Ni\xF1o: WAAAA perdi mis Caramelos!!!!!! no se cuantos perdi!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[3]'
+      value: 'Heroe: aqui tienes tus caramelos, encontre todos.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[4]'
+      value: "Ni\xF1o: gracias se\xF1or, mmm me puede ayudar con algo mas se\xF1or?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[5]'
+      value: 'Heroe: por supuesto!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'lineaTexto.Array.data[6]'
+      value: "Ni\xF1o: Muchas gracias Heroe!!!!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: preguntas.Array.data[0].pregunta
+      value: "WAAa tenia 30 caramelos y solo encontre 18\xBFCuantos me faltan?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: preguntas.Array.data[1].pregunta
+      value: "de los 30 caramelos 10 son paletitas y el resto son bolitas dulces\xBFCuantas
+        bolitas dulces tengo?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'preguntas.Array.data[0].respuestas.Array.data[0]'
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'preguntas.Array.data[0].respuestas.Array.data[1]'
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'preguntas.Array.data[1].respuestas.Array.data[0]'
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127135735150357045, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: 'preguntas.Array.data[1].respuestas.Array.data[1]'
+      value: 28
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
 --- !u!1001 &7272797335767808426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3330,6 +3368,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 2291797488055284145, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2444337058560087116, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -3422,6 +3464,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 8844427289873166395, guid: f2fb4114dc34e0142a799e7a4e7e14d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3438,5 +3484,5 @@ SceneRoots:
   - {fileID: 984124336}
   - {fileID: 101579002}
   - {fileID: 7272797335767808426}
-  - {fileID: 329159168}
-  - {fileID: 254431724}
+  - {fileID: 1600064734}
+  - {fileID: 738906398}
