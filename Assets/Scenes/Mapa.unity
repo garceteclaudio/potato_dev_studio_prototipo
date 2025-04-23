@@ -720,6 +720,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &969255002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+  m_PrefabInstance: {fileID: 1596495702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &984719462
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,8 +821,8 @@ RectTransform:
   m_Children:
   - {fileID: 1266490532}
   - {fileID: 1396314791}
-  - {fileID: 1054845828}
   - {fileID: 1577756755}
+  - {fileID: 1054845828}
   - {fileID: 338892584}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -849,7 +854,7 @@ PrefabInstance:
       objectReference: {fileID: -688334225789961953, guid: 4a43f5ad7868f1446aebc0f2e106060a, type: 3}
     - target: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
       propertyPath: m_Name
-      value: NivelBoton (2)
+      value: NivelBoton3
       objectReference: {fileID: 0}
     - target: {fileID: 7420896641517245560, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
       propertyPath: clickSound
@@ -994,7 +999,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2005508081}
   m_SourcePrefab: {fileID: 100100000, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
 --- !u!1 &1266490531
 GameObject:
@@ -1125,6 +1133,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8196579387689757839, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
   m_PrefabInstance: {fileID: 1596495702}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1577756760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969255002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3a9d057d7ed6849b334190510f7418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscena: Minijuego2
 --- !u!1001 &1596495702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1143,7 +1164,7 @@ PrefabInstance:
       objectReference: {fileID: -688334225789961953, guid: 4a43f5ad7868f1446aebc0f2e106060a, type: 3}
     - target: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
       propertyPath: m_Name
-      value: NivelBoton (4)
+      value: NivelBoton2
       objectReference: {fileID: 0}
     - target: {fileID: 7420896641517245560, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
       propertyPath: clickSound
@@ -1288,13 +1309,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1577756760}
   m_SourcePrefab: {fileID: 100100000, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
 --- !u!82 &1632424941 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 816238260094972217, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
   m_PrefabInstance: {fileID: 2348670570716699514}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2005508076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+  m_PrefabInstance: {fileID: 1222557492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2005508081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005508076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3a9d057d7ed6849b334190510f7418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscena: Minijuego3
 --- !u!1001 &2348670570716699514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1313,7 +1355,7 @@ PrefabInstance:
       objectReference: {fileID: -688334225789961953, guid: 4a43f5ad7868f1446aebc0f2e106060a, type: 3}
     - target: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
       propertyPath: m_Name
-      value: NivelBoton
+      value: NivelBoton1
       objectReference: {fileID: 0}
     - target: {fileID: 7420896641517245560, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
       propertyPath: clickSound
@@ -1458,8 +1500,78 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2348670570716699516}
+    - targetCorrespondingSourceObject: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2348670570716699521}
   m_SourcePrefab: {fileID: 100100000, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+--- !u!1 &2348670570716699515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5589814371682492225, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+  m_PrefabInstance: {fileID: 2348670570716699514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2348670570716699516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2348670570716699515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3a9d057d7ed6849b334190510f7418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscena: Minijuego1
+--- !u!61 &2348670570716699521
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2348670570716699515}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
