@@ -959,6 +959,38 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1320432716}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CambiarEscena
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ControladorNiveles, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Minijuego3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1039,6 +1071,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266490531}
   m_CullTransparentMesh: 1
+--- !u!1 &1320432715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1320432717}
+  - component: {fileID: 1320432716}
+  m_Layer: 0
+  m_Name: ControladorNivel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1320432716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320432715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c8ef52fbe81f348992a8f19d0bc385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1320432717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320432715}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.10522016, y: -0.19850683, z: 470.9812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1396314791 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8196579387689757839, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
@@ -1176,6 +1252,38 @@ PrefabInstance:
     - target: {fileID: 8196579387689757839, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1320432716}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CambiarEscena
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ControladorNiveles, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Minijuego2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1315,6 +1423,38 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1320432716}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CambiarEscena
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ControladorNiveles, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Minijuego1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113369818407140676, guid: ab5f7dd0e52ffbc4da9c10dc0ac0ca5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1327,3 +1467,4 @@ SceneRoots:
   - {fileID: 846318529}
   - {fileID: 984719466}
   - {fileID: 839625248}
+  - {fileID: 1320432717}
