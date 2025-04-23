@@ -125,27 +125,38 @@ public class BehaviourNPC : MonoBehaviour
 
     private void ResponderPregunta(int respuestaIndex)
     {
-        // Verificar respuesta
-        if (respuestaIndex == preguntas[preguntaActual].respuestaCorrecta)
+        // Obtener el botón presionado
+        Button botonPresionado = botonesRespuestas[respuestaIndex];
+
+        if (respuestaIndex != preguntas[preguntaActual].respuestaCorrecta)
         {
-            Debug.Log("Respuesta correcta!");
-            // Puedes agregar aquí efectos de respuesta correcta
+            Debug.Log("Respuesta incorrecta!");
+
+            //Cambiar color del botón a rojo 
+            botonPresionado.image.color = Color.red;
+
+            // Desactivar solo este botón
+            // botonPresionado.interactable = false;
+
+            // No incrementar preguntaActual, para permitir reintentos
+            return; //Salir sin avanzar.
         }
         else
         {
-            Debug.Log("Respuesta incorrecta!");
-            // Efectos de respuesta incorrecta
+            Debug.Log("Respuesta correcta!");
+
+            // Restaurar colores de todos los botonespor si alguno estaba rojo
+            foreach (var boton in botonesRespuestas)
+            {
+                boton.image.color = Color.white; // Color original
+            }
+
+            // Ocultar panel de preguntas y continuar diálogo
+            panelPreguntas.SetActive(false);
+            panelDialogo.SetActive(true);
+            preguntaActual++;
+            SiguienteLinea();
         }
-
-        // Ocultar panel de preguntas
-        panelPreguntas.SetActive(false);
-
-        // Continuar con el diálogo
-        panelDialogo.SetActive(true);
-        preguntaActual++;
-
-        // Pasar a la siguiente línea (o puedes saltar a una línea específica)
-        SiguienteLinea();
     }
 
 
