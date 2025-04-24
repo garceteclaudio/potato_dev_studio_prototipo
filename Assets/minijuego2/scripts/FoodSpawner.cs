@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class FoodSpawner : MonoBehaviour
@@ -8,17 +9,28 @@ public class FoodSpawner : MonoBehaviour
     public float offsetY = 3f; // Altura adicional para que la comida aparezca más arriba y caiga
 
     private float timer; // Temporizador interno para controlar el intervalo
+    private float gameTime;
 
     void Update()
     {
-        // Acumulamos el tiempo que pasa en cada frame
         timer += Time.deltaTime;
+        gameTime += Time.deltaTime;
+
+        // Disminuye el intervalo al pasar ciertos tiempos
+        if (gameTime >= 20f && gameTime < 40f)
+        {
+            spawnInterval = 1.0f; // Aumenta la velocidad después de 20s
+        }
+        else if (gameTime >= 40f)
+        {
+            spawnInterval = 0.7f; // Aumenta más la velocidad después de 40s
+        }
 
         // Si pasó suficiente tiempo, generamos una nueva comida
         if (timer >= spawnInterval)
         {
-            SpawnFood(); // Llama a la función que instancia la comida
-            timer = 0f;  // Reinicia el temporizador
+            SpawnFood();
+            timer = 0f;
         }
     }
 

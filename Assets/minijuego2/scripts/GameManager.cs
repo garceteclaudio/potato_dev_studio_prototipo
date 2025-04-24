@@ -39,6 +39,14 @@ public class GameManager : MonoBehaviour
         Vidas--;
         Debug.Log("Vidas restantes: " + Vidas);
 
+
+        if (Vidas <= 1)
+        {
+
+            Debug.Log("te queda una vida");
+
+        }
+
         if (Vidas <= 0)
         {
             Debug.Log("¡Juego terminado!");
