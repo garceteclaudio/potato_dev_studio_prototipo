@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(Collider2D))]
 public class DragAndDropManager : MonoBehaviour
@@ -12,6 +13,7 @@ public class DragAndDropManager : MonoBehaviour
     [SerializeField] private LayerMask containerLayerMask;
     [SerializeField] private AudioClip correctDropSound; // Nuevo campo para el sonido
     private AudioSource audioSource; // Referencia al AudioSource
+
 
     private void Start()
     {
@@ -89,35 +91,71 @@ public class DragAndDropManager : MonoBehaviour
     {
         if (gameObject.CompareTag("elemento-comida"))
         {
-            // Reproducir sonido si está configurado
+            // 1. Primero reproducir el sonido
             if (correctDropSound != null)
             {
-                audioSource.PlayOneShot(correctDropSound);
+                // Usar PlayClipAtPoint que no depende del objeto
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+
+                // O alternativa: usar corrutina para retrasar la destrucción
+                // StartCoroutine(PlaySoundAndDestroy());
             }
 
+            // 2. Luego ejecutar la lógica del juego
             ScoreManager.Instance?.AddScore(1);
-
-
-
             SwitchContainers();
             ProcessItems();
+
+            // 3. Finalmente destruir el objeto
+            Destroy(gameObject);
         }
         else if (gameObject.CompareTag("item"))
         {
             LifeManager.Instance?.LoseLife(1);
+            if (correctDropSound != null)
+            {
+                // Usar PlayClipAtPoint que no depende del objeto
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+
+                // O alternativa: usar corrutina para retrasar la destrucción
+                // StartCoroutine(PlaySoundAndDestroy());
+            }
+            Destroy(gameObject);
         }
+    }
+
+    // Opcional: Corrutina alternativa
+    private IEnumerator PlaySoundAndDestroy()
+    {
+        audioSource.PlayOneShot(correctDropSound);
+
+        // Esperar hasta que termine el sonido
+        while (audioSource.isPlaying)
+        {
+            yield return null;
+        }
+
+        Destroy(gameObject);
     }
 
     private void HandleGlassContainerDrop(GameObject container)
     {
         if (gameObject.CompareTag("item-vidrio"))
         {
+            if (correctDropSound != null)
+            {
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+            }
             RemoveGlassContainerAndItems();
             ScoreManager.Instance?.AddScore(1);
             ActivatePaperContainerAndItems();
         }
         else if (gameObject.CompareTag("item-2"))
         {
+            if (correctDropSound != null)
+            {
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+            }
             LifeManager.Instance?.LoseLife(1);
         }
     }
@@ -126,12 +164,20 @@ public class DragAndDropManager : MonoBehaviour
     {
         if (gameObject.CompareTag("item-papel"))
         {
+            if (correctDropSound != null)
+            {
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+            }
             ScoreManager.Instance?.AddScore(1);
             RemovePaperContainerAndItems();
             ActivateMetalContainerAndItems(); // Nueva función para activar contenedor metal
         }
         else if (gameObject.CompareTag("item-3"))
         {
+            if (correctDropSound != null)
+            {
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+            }
             LifeManager.Instance?.LoseLife(1);
         }
     }
@@ -141,11 +187,19 @@ public class DragAndDropManager : MonoBehaviour
     {
         if (gameObject.CompareTag("item-metal"))
         {
+            if (correctDropSound != null)
+            {
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+            }
             ScoreManager.Instance?.AddScore(1);
             RemoveMetalContainerAndItems(); // Nueva función para eliminar contenedor e items
         }
         else if (gameObject.CompareTag("item-4"))
         {
+            if (correctDropSound != null)
+            {
+                AudioSource.PlayClipAtPoint(correctDropSound, Camera.main.transform.position);
+            }
             LifeManager.Instance?.LoseLife(1);
         }
     }

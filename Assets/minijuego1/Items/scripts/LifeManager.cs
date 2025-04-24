@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement; // Necesario para manejar escenas
 
 public class LifeManager : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class LifeManager : MonoBehaviour
     [Header("Configuración")]
     [SerializeField] private int initialLives = 3;
     [SerializeField] private TMP_Text livesText;
+    [SerializeField] private string gameOverSceneName = "GameOver"; // Nombre de la escena de Game Over
 
     private int currentLives;
 
@@ -16,10 +18,12 @@ public class LifeManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject); // Opcional: si quieres mantener el manager entre escenas
         }
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
@@ -31,14 +35,32 @@ public class LifeManager : MonoBehaviour
 
     public void LoseLife(int amount)
     {
+        if (currentLives <= 0) return;
+
         currentLives -= amount;
         UpdateLivesUI();
-        Debug.Log($"Vidas restantes: {currentLives}");
 
         if (currentLives <= 0)
         {
-            Debug.Log("¡Game Over!");
-            // Lógica adicional de game over
+            TriggerGameOver();
+        }
+    }
+
+    private void TriggerGameOver()
+    {
+        Debug.Log("¡Game Over!");
+
+        // Detener la música
+        MusicManager.Instance?.StopMusic();
+
+        // Cargar la escena de Game Over
+        if (!string.IsNullOrEmpty(gameOverSceneName))
+        {
+            SceneManager.LoadScene(gameOverSceneName);
+        }
+        else
+        {
+            Debug.LogError("Nombre de escena GameOver no configurado");
         }
     }
 
@@ -51,7 +73,6 @@ public class LifeManager : MonoBehaviour
         else
         {
             Debug.LogWarning("Lives Text no asignado en el Inspector");
-            livesText = GameObject.FindGameObjectWithTag("vida")?.GetComponent<TMP_Text>();
         }
     }
 }
