@@ -39,8 +39,11 @@ public class ScoreManager : MonoBehaviour
         if (currentScore >= 4 && !alreadyWon)
         {
             alreadyWon = true;
+
+            //Desbloquear nivel 2
+            DesbloqueoNiveles.DesbloquearNivel("nivel_2_desbloqueado");
+
             StartCoroutine(LoadVictorySceneWithDelay(0.5f));
-            PlayerPrefs.SetInt("nivel_2_desbloqueado", 0);
         }
     }
 

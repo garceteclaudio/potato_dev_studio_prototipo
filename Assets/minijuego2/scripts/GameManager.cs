@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections; // <-- Necesario para usar IEnumerator
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,10 +30,13 @@ public class GameManager : MonoBehaviour
         {
             yaGano = true;
             Debug.Log("¡Ganaste!");
+
+            //Desbloquear el nivel 3
+            DesbloqueoNiveles.DesbloquearNivel("nivel_3_desbloqueado");
+
             StartCoroutine(CargarEscenaConDelay("Victoria", 0.5f));
-            PlayerPrefs.SetInt("nivel_2_desbloqueado", 0);
-            PlayerPrefs.SetInt("nivel_3_desbloqueado", 0);
         }
+
     }
 
     public void RestarVida()
