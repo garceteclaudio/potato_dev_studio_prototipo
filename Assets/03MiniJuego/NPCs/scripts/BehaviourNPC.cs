@@ -30,8 +30,16 @@ public class BehaviourNPC : MonoBehaviour
 
     [SerializeField] private Pregunta[] preguntas;
 
+    [Header("Sonidos")]
+    [SerializeField] AudioClip SonidoAcierto;
+    [SerializeField] AudioClip SonidoError;
+    [SerializeField] AudioSource AudioSource;
     void Start()
     {
+        if (AudioSource == null)
+        {
+            AudioSource = GetComponent<AudioSource>();
+        }
         // Configurar listeners para los botones
         for (int i = 0; i < botonesRespuestas.Length; i++)
         {
@@ -130,6 +138,7 @@ public class BehaviourNPC : MonoBehaviour
 
         if (respuestaIndex != preguntas[preguntaActual].respuestaCorrecta)
         {
+            AudioSource.PlayOneShot(SonidoError);
             Debug.Log("Respuesta incorrecta!");
 
             //Cambiar color del botón a rojo 
@@ -144,7 +153,7 @@ public class BehaviourNPC : MonoBehaviour
         else
         {
             Debug.Log("Respuesta correcta!");
-
+            AudioSource.PlayOneShot(SonidoAcierto);
             // Restaurar colores de todos los botonespor si alguno estaba rojo
             foreach (var boton in botonesRespuestas)
             {
