@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections; // <-- Necesario para usar IEnumerator
 
 public class GameManager : MonoBehaviour
 {
@@ -6,31 +8,31 @@ public class GameManager : MonoBehaviour
     public int PuntosTotales { get { return puntosTotales; } }
     private int puntosTotales;
 
-    //public int vidas = 5;
     public int Vidas { get; private set; } = 5;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool yaGano = false;
+    private bool yaPerdio = false;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
         }
-        else
-        {
-            Debug.Log("peligro mas de un  Game manager");
-        }
     }
-    public void SumarP(int puntosASumar)
 
+    public void SumarP(int puntosASumar)
     {
         puntosTotales += puntosASumar;
         Debug.Log(puntosTotales);
 
-        if (puntosTotales >= 20)
+        if (puntosTotales >= 5 && !yaGano)
         {
+            yaGano = true;
             Debug.Log("¡Ganaste!");
-            //  SceneManager.LoadScene("Win"); // Asegurate que la escena esté añadida en Build Settings
+            StartCoroutine(CargarEscenaConDelay("Victoria", 0.5f));
+            PlayerPrefs.SetInt("nivel_2_desbloqueado", 0);
+            PlayerPrefs.SetInt("nivel_3_desbloqueado", 0);
         }
     }
 
@@ -39,19 +41,22 @@ public class GameManager : MonoBehaviour
         Vidas--;
         Debug.Log("Vidas restantes: " + Vidas);
 
-
         if (Vidas <= 1)
         {
-
-            Debug.Log("te queda una vida");
-
+            Debug.Log("Te queda una vida");
         }
 
-        if (Vidas <= 0)
+        if (Vidas <= 0 && !yaPerdio)
         {
+            yaPerdio = true;
             Debug.Log("¡Juego terminado!");
-
+            StartCoroutine(CargarEscenaConDelay("GameOver", 0.5f));
         }
     }
 
+    private IEnumerator CargarEscenaConDelay(string nombreEscena, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(nombreEscena);
+    }
 }

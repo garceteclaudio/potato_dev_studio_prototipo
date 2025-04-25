@@ -22,7 +22,7 @@ public class HUD : MonoBehaviour
     void Update()
     {
         
-        puntos.text = GameManager.Instance.PuntosTotales.ToString();
+        puntos.text = "Puntos: " + GameManager.Instance.PuntosTotales.ToString();
         vidas.text = "Vidas: " + GameManager.Instance.Vidas.ToString();
 
         
